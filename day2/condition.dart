@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 void main() {
   int age = 15;
   if (age > 18) {
