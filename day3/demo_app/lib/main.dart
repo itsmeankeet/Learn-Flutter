@@ -1,5 +1,4 @@
 // ignore_for_file: prefer_const_constructors
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,15 +13,32 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         home: Scaffold(
-          backgroundColor: Colors.deepPurple[100],
-          body: Column(
+          backgroundColor: Colors.lightGreen[200],
+          appBar: AppBar(
+            backgroundColor: Colors.lightGreen,
+            centerTitle: true,
+            title: Text("My First App",
+                style: TextStyle(
+                    fontSize: 30,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white)),
+            elevation: 0,
+            leading: Icon(
+              Icons.menu,
+              size: 40,
+              color: Colors.white,
+            ),
+          ),
+          body: ListView(
+            // mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Center(
                 child: Container(
+                  margin: EdgeInsets.all(50),
                   height: 300,
                   width: 300,
                   decoration: BoxDecoration(
-                    color: Colors.green[300],
+                    color: Colors.lightGreen,
                     borderRadius: BorderRadius.horizontal(
                         left: Radius.circular(15), right: Radius.circular(100)),
                   ),
@@ -47,17 +63,19 @@ class MyApp extends StatelessWidget {
               ),
               Center(
                 child: Container(
+                  margin: EdgeInsets.all(50),
                   height: 300,
                   width: 300,
                   decoration: BoxDecoration(
-                    color: Colors.green[300],
+                    color: Colors.lightGreen,
                     borderRadius: BorderRadius.horizontal(
-                        left: Radius.circular(15), right: Radius.circular(100)),
+                        left: Radius.circular(150),
+                        right: Radius.circular(150)),
                   ),
                   padding: EdgeInsets.all(25),
                   child: Column(
                     children: const [
-                      Text("This is my heart for you",
+                      Text("This is first container",
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
@@ -78,9 +96,9 @@ class MyApp extends StatelessWidget {
                   height: 300,
                   width: 300,
                   decoration: BoxDecoration(
-                    color: Colors.green[300],
+                    color: Colors.lightGreen,
                     borderRadius: BorderRadius.horizontal(
-                        left: Radius.circular(15), right: Radius.circular(100)),
+                        left: Radius.circular(100), right: Radius.circular(10)),
                   ),
                   padding: EdgeInsets.all(25),
                   child: Column(
