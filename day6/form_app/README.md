@@ -1,15 +1,30 @@
-# form_app
+Form App
+Description
+Form App is a Flutter application that provides a simple and convenient way for users to authenticate using their Facebook or GitHub accounts. This app streamlines the login process and ensures a seamless user experience.
 
-In this project I make a simple form app 
-## Getting Started
+Features
+Facebook Login: Users can easily log in to the app using their Facebook credentials.
+GitHub Login: Alternatively, users can log in using their GitHub credentials.
+Simplified Authentication: The app handles the authentication process smoothly, making it hassle-free for users.
+Installation
+Clone the repository:
 
-This project is a starting point for a Flutter application.
+bash
+Copy code
+git clone https://github.com/itsmeankeet/Learn-Flutter
 
-A few resources to get you started if this is your first Flutter project:
+bash
+Copy code
+cd form_app
+Install dependencies:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+arduino
+Copy code
+flutter pub get
+Run the app:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+arduino
+Copy code
+flutter run
+Dependencies
+Flutter: Form App is built using the Flutter framework, enabling cross-platform development for iOS and Android.
