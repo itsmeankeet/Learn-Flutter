@@ -16,12 +16,12 @@
 - **Installation:**
   1. Clone the repository:
      ```
-     git clone https://github.com/yourusername/form_app.git
+     git clone https://github.com/itsmeankeet/Learn-Flutter.git
      ```
 
   2. Navigate to the project directory:
      ```
-     cd form_app
+     cd Learn-Flutter/day6/form_app
      ```
 
   3. Install dependencies:
@@ -60,12 +60,12 @@
 
 ---
 
-- **GitHub Link:** [Form App Repository](https://github.com/itsmeankeet/Learn-Flutter.git)
+- **GitHub Link:** [Form App Repository](https://github.com/itsmeankeet/Learn-Flutter/tree/main/day6/form_app)
 
 ---
 
 - **Contact:**
-  For any inquiries or support, please contact [your email address].
+  For any inquiries or support, please contact [adhikariankit553@gmail.com].
 
 ---
 
