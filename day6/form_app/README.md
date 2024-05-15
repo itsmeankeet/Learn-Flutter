@@ -1,7 +1,6 @@
 # form_app
 
-A new Flutter project.
-
+In this project I make a simple form app 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
