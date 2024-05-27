@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "470020415669",
+    "project_id": "crudtutorial-f32fc",
+    "storage_bucket": "crudtutorial-f32fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470020415669:android:ec5fdab92bf7a7cf919efc",
+        "android_client_info": {
+          "package_name": "com.example.crudtutorial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAJ4DVb2sn2FS200Qd-BP74ZYkBSn2dUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
