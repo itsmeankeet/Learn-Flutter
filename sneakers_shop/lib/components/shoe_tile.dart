@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:sneakers_shop/module/shoe.dart';
 
 class ShoeTile extends StatelessWidget {
-  Function()? onTap;
+  void Function()? onTap;
   Shoe shoe;
-  ShoeTile({super.key, required this.shoe, required Function()? onTap});
+  ShoeTile({super.key, required this.shoe, required Function()? this.onTap});
 
   @override
   Widget build(BuildContext context) {
@@ -52,7 +52,8 @@ class ShoeTile extends StatelessWidget {
                     //price and add to cart
                     Text(
                       "\$${shoe.price}",
-                      style: TextStyle(fontSize: 17, color: Colors.black45),
+                      style:
+                          const TextStyle(fontSize: 17, color: Colors.black45),
                     ),
                   ],
                 ),

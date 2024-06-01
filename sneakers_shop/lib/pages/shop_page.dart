@@ -14,8 +14,6 @@ class ShopPage extends StatefulWidget {
 class _ShopPageState extends State<ShopPage> {
   addShoeonCart(Shoe shoe) {
     Provider.of<Cart>(context, listen: false).addCartToItem(shoe);
-    print("Added to cart");
-
     showDialog(
         context: context,
         builder: (context) => const AlertDialog(
